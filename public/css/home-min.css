@@ -1,0 +1,353 @@
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+
+  }
+  .home-page-author-embedded-video{
+      width: 100%;
+      height:315px;
+  }
+  /* .home_page-data{
+      position: relative;
+
+  } */
+
+.slider{
+    padding-top: 0;
+         
+} .home_slide{
+    padding-top: 0%;
+    display: none;
+    height: auto;
+    position: relative;
+    bottom: 5px;    
+}
+.home-data{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 40px;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+}
+.home_page_author_on_quality_drugs{
+    /* background-color: blue; */
+    width: 100vw;
+    margin: 10px;
+}
+.authors{
+    float: left;
+    width: 90%;
+    margin-left: 2%;
+    margin: right 5%;
+    text-align: justify;
+    padding: 40px;
+}
+.author-header{
+    display: block; 
+    text-align: center; 
+}
+.all-author-deal{
+    /* background-color: yellow; */
+    width: 50%;
+    text-align: center;
+    line-height: normal;
+    float: left;
+    
+ }
+ .home_page_author_on_quality_drugs{
+     width: 100%;
+     height: auto;
+     margin: 30px;
+     display: flex;
+     align-items: center;
+ }
+.author-media{
+    width: 45%;
+    height: auto;
+        /* position: relative;
+        left: 45%;
+        bottom: 70%; */
+        
+    }
+    .authors{
+        text-align: justify;
+}
+.brief_info_data{
+    width: 100%;
+    height: auto;
+    background-color: rgb(228, 221, 213);
+}
+.container{
+    display: flex;
+    width: 95%;
+    height: 350px;
+    align-items: center;
+
+}
+
+#briefs{
+   margin: 30px 30px; 
+   height: 150px;
+   word-wrap: break-word;
+}  
+.brief_mission_header, .brief_vision_header, .brief_about_header{
+    text-align: center;
+}
+.brief_info_data_link{
+    background-color: red;
+    width:100%;
+    height: 80px;
+    /* margin-top: 30px; */
+    line-height: 1em;
+    box-sizing: border-box;
+
+}
+
+
+.home_page_activities{
+    /* float: left; */
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    background-color: rgb(228, 221, 213);
+    
+
+}
+.total_activities{
+    /* background-color: blue; */
+    width: 45%;
+    height: auto;
+    margin: 5px;
+    padding: 1px;
+    float:left;
+}
+.activities{
+    list-style-type: none;
+    margin: 5px;
+    text-align: justify;
+}
+.activities-paragh{
+    text-align: justify;
+}
+.activity-header{
+    text-align: center;
+}
+.activities_img{
+     /* background-color: green; */
+     visibility: hidden;     
+}
+.Standards{
+        /* background-color: greenyellow; */
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+        background-color: rgb(228, 221, 213);
+        align-items: center;
+}
+.standard_container{
+        width: 45%;
+        height: auto;
+        margin: 5px;
+        padding: 1px;
+        float:left;
+        /* background-color: blueviolet; */
+        align-items: center;
+}
+.standards-settings{
+        text-align: center;
+}
+.standard-paragh{
+        text-align: justify;
+        word-wrap: break-word;
+}
+.membership{
+        width: 100%;
+        height: 250px;
+        margin-top: 15px;
+        background-color: rgb(255, 0, 0)
+}
+    .contact_from_home{
+        width: 100%;
+        height: auto;
+        /* text-align: center; */                
+    }
+    .member_ask_container{
+        margin-top: 40px;
+        color: aqua;
+        text-align: center;
+        line-height: 1;
+     }
+   .home-footer {
+        width: 100%;
+        margin-top: 30px;
+        float: left;
+        position: relative;
+        top: 100px;
+        
+    }
+    .registered_org{
+        width: 90%;
+        height: auto;
+        margin: 30px;
+        display:flex;
+        vertical-align: middle;
+        align-items: center;
+            
+        
+    } 
+    .organisations_in_support{
+        margin: 20px;
+        
+        
+    }
+    .org{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: repeat(5, calc(100% - 5px));
+        grid-template-rows: minmax(150px, 1fr);
+        padding: 0 10px;
+    }
+    .dev_cont{
+        background-color: yellow;
+        width: 100%;
+        height: auto;
+        
+    }
+    .dev_container{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: capitalize;
+        color: aqua;
+    }
+
+    @media only screen and (max-width:1120px){
+        .main-content{
+            width: 100%;
+            height: auto;
+        }
+     .all-author-deal{
+         font-size:medium;
+         width: 50%;
+         margin: 20px 20px;
+     }   
+     .author-media{
+        width: 40%;
+        height: auto;            
+        }
+    .brief_info_data{
+        width: 100%;
+        height: auto;
+    }
+    .brief_info_data_link{
+        background-color: red;
+        width:100%;
+        height: 60px;
+        margin-top: 20px;
+        /* margin-top: 30px; */
+        line-height: 1em;
+        box-sizing: border-box;
+    }
+    .member_ask{
+        font-size: larger;
+        margin: 20px;
+    }
+    .membership_link{
+        margin: 20px;
+    }
+
+    }
+    /* .home-page-author-embedded-video{
+        width: 50%;
+    } 
+    .all-author-deal{
+        width: 45%;
+        text-align: justify;
+        float: left;
+        position: relative;
+    }
+    .author-header{
+        text-align: center;
+    
+    }
+    .authors{
+        width: 100%;
+        height: auto;
+    }
+    }*/
+    
+    /* @media only screen and (max-width:1024px){
+        .home_page_author_on_quality_drugs{
+            width: 100%;
+        }
+        /* .home-page-author-embedded-video{
+            width: 50%;
+        } */
+        /* iframe{
+            width: 45%;
+        } */
+        /* .all-author-deal{
+            width: 45%;
+            text-align: justify;
+            float: left;
+            position: relative;
+            right: 7%;
+        }
+        .author-header{
+            text-align: center;
+    
+        }
+        .author{
+            width: 100%;
+        } */
+    /* @media only screen and (max-width: 850px){
+    .home_page_author_on_quality_drugs{
+        width: 100%;
+    } */
+      /* .home-page-author-embedded-video{
+    width: 46%;
+    } */
+    /* @media only screen and (max-width: 650px) {
+        .home_page_author_on_quality_drugs{
+         width: 100%;
+        } */
+    
+    
+    /* @media only screen and (max-width: 550px) {
+        .home_page_author_on_quality_drugs{
+         background-color: yellow;
+     width: 100%;
+        }
+    
+    
+     } */
+     /* @media only screen and (max-width:425px){
+    .all-author-deal{
+        width: 100%;
+        text-align: justify;
+        margin: 10px;
+        float: left;
+        text-align: justify;
+        position: relative;
+        right: 7.5%;
+    }
+    .author-header{
+        text-align: center;
+    }
+    }*/
+    /* .top-banner{
+    background-color: red;
+    width: 100%;
+    height:100px ;
+    position: relative;
+    top: 100px;
+    
+    
+    } */

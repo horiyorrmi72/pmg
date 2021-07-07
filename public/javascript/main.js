@@ -1,0 +1,1 @@
+var pages = ['Home', 'About'];

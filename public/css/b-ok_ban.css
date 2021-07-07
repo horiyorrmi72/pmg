@@ -1,3 +1,17 @@
-.about_org_history{
-    display: flex;
+#about_org_history{
+    padding: 100px 100px;
+    width: 100%;
+}
+.org_history{
+width: 80%;
+height: auto; 
+padding: 50px;
+border: 5px solid red;
+}
+.history_button_1{
+    background-color: rgb(100, 59, 59);
+    width: 80%;
+    height: 50px;
+    position: relative;
+    top: 17px;
 }

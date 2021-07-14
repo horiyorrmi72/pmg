@@ -1,17 +1,197 @@
-#about_org_history{
-    padding: 100px 100px;
-    width: 100%;
+
+@media only screen and (max-width:1920px) {
+    
+    .header-nav-bar{
+        padding: 0;
+        font-size:larger;
+        list-style-type: none;
+        overflow:hidden;
+        position: relative;
+        bottom:90px;
+        right: 10%;
+        float: left;
+        width: 100%;
+        height: auto;
+          
+    }
+    .nav-links-header{
+        float:left;
+        margin-right: 5px;
+        margin-left: 5px;
+        list-style-type: none;
+        position: relative;
+        left:30%;
+        display: block;
+        color: #f2f2f2;
+        text-decoration: none;
+        }
 }
-.org_history{
-width: 80%;
-height: auto; 
-padding: 50px;
-border: 5px solid red;
+
+#real_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
-.history_button_1{
-    background-color: rgb(100, 59, 59);
-    width: 80%;
-    height: 50px;
+.about_org_history{
+    width: 85%;
+    height: auto;
+    background-color: aqua;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    }
+    .about_history{
+        width:95%;
+        height: auto;
+        font-size:medium;
+        margin: 20px;
+        
+    }
+    .mission_vision_container{
+        position: relative;
+        display: flex;
+        top: 50px;
+        width: 100%;
+        margin: 30px;
+        padding: 20px;
+        height: auto;
+        align-items: justify;
+        justify-content: center;
+        
+    }
+#mission{
+    width: 30%;
     position: relative;
-    top: 17px;
+    right: 10%;
 }
+.vision{
+    width: 30%;
+    position: relative;
+    left: 10%;
+
+
+}
+.work_and_aims_container{
+    display: flex;
+    position: relative;
+    top: 60px;
+    margin: 10px;
+    align-items:justify;
+    justify-content: center;
+    padding: 20px;
+    background-color: aqua;
+    
+}
+.our_work_pgman{
+    position: relative;
+    right: 20px;
+    height: auto;
+    width: 40%;
+}
+.aims{
+    width: 40%;
+    position: inherit;
+    left: 30px;
+}
+.aims_list, .work_list{
+    margin: 10px;
+}
+.work_button, .aim_button, .history_button_1{
+    width: 100%;
+    height: 45px;
+    color: #f2f2f2;
+    font-size: medium;
+    font-weight:600;
+    text-align:center;
+    background-color: rgb(231, 10, 10);
+    padding:1px;
+    border:1px ;
+    border-radius: 25px;
+}
+.executives{
+    position: relative;
+    padding-top: 10%;   
+    width: 100%;
+    height: auto;
+  
+    
+}
+.executive_header{
+    text-align: center;
+}
+.excos_container{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-rows:    repeat(5, 220px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 1%;
+    
+}
+.excos_gallery{
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 30px 40px;
+    text-align: center;
+          
+    }
+    .excos{
+    padding:1px;
+    border:1px ;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+    .home-footer {
+        width: 100%;
+        margin-top: 30px;
+        float: left;
+        position: relative;
+        top: 100px;
+        
+    }
+    .registered_org{
+        width: 90%;
+        height: auto;
+        margin: 20px;
+        display:flex;
+        vertical-align: middle;
+        align-items: center;
+               
+    } 
+    .organisations_in_support{
+        margin: 10px;
+        
+        
+    }
+    .org{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-gap: 5px;
+        /* grid-template-columns: repeat(6, calc(100% - 5px)); */
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: minmax(150px, 1fr);
+    
+        padding: 0 10px;
+    }
+
+    .dev_cont{
+        background-color: yellow;
+        width: 100%;
+        height: auto;
+        
+    }
+    .dev_container{
+        background-color: black;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        text-transform: capitalize;
+        color: aqua;
+    }

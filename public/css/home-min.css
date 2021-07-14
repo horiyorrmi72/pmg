@@ -8,12 +8,10 @@ img {
       width: 100%;
       height:315px;
   }
-  /* .home_page-data{
-      position: relative;
 
-  } */
 
 .slider{
+    margin-top:20px;
     padding-top: 0;
          
 } .home_slide{
@@ -21,7 +19,7 @@ img {
     display: none;
     height: auto;
     position: relative;
-    bottom: 5px;    
+    bottom: 50px;
 }
 .home-data{
     width: 100%;
@@ -100,10 +98,14 @@ img {
 .brief_info_data_link{
     background-color: red;
     width:100%;
-    height: 80px;
+    height: 50px;
     /* margin-top: 30px; */
     line-height: 1em;
     box-sizing: border-box;
+    padding:1px;
+    border:1px ;
+    border-radius: 25px;
+    color:aliceblue;
 
 }
 
@@ -117,7 +119,7 @@ img {
 
 }
 .total_activities{
-    width: 48%;
+    width: 50%;
     height: auto;
     margin: auto;
     padding: 50px;
@@ -136,8 +138,8 @@ img {
     text-align: center;
 }
 .activity_pix{
-    width: 50%;
-    height: auto;
+    width: 48%;
+    height: 90%;
 }
 .Standards{
         /* background-color: greenyellow; */
@@ -164,7 +166,7 @@ img {
 }
 .standard_pix{
     width: 48%;
-    height: auto;
+    height: 90%;
 
 }
 .membership{
@@ -184,52 +186,9 @@ img {
         text-align: center;
         line-height: 1;
      }
-   .home-footer {
-        width: 100%;
-        margin-top: 30px;
-        float: left;
-        position: relative;
-        top: 100px;
-        
-    }
-    .registered_org{
-        width: 90%;
-        height: auto;
-        margin: 30px;
-        display:flex;
-        vertical-align: middle;
-        align-items: center;
-            
-        
-    } 
-    .organisations_in_support{
-        margin: 20px;
-        
-        
-    }
-    .org{
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-gap: 5px;
-        grid-template-columns: repeat(5, calc(100% - 5px));
-        grid-template-rows: minmax(150px, 1fr);
-        padding: 0 10px;
-    }
-    .dev_cont{
-        background-color: yellow;
-        width: 100%;
-        height: auto;
-        
-    }
-    .dev_container{
-        background-color: black;
-        width: 100%;
-        height: auto;
-        text-align: center;
-        text-transform: capitalize;
-        color: aqua;
-    }
+   
+    
+    
 
     @media only screen and (max-width:1120px){
         .main-content{
@@ -267,90 +226,4 @@ img {
     }
 
     }
-    /* .home-page-author-embedded-video{
-        width: 50%;
-    } 
-    .all-author-deal{
-        width: 45%;
-        text-align: justify;
-        float: left;
-        position: relative;
-    }
-    .author-header{
-        text-align: center;
     
-    }
-    .authors{
-        width: 100%;
-        height: auto;
-    }
-    }*/
-    
-    /* @media only screen and (max-width:1024px){
-        .home_page_author_on_quality_drugs{
-            width: 100%;
-        }
-        /* .home-page-author-embedded-video{
-            width: 50%;
-        } */
-        /* iframe{
-            width: 45%;
-        } */
-        /* .all-author-deal{
-            width: 45%;
-            text-align: justify;
-            float: left;
-            position: relative;
-            right: 7%;
-        }
-        .author-header{
-            text-align: center;
-    
-        }
-        .author{
-            width: 100%;
-        } */
-    /* @media only screen and (max-width: 850px){
-    .home_page_author_on_quality_drugs{
-        width: 100%;
-    } */
-      /* .home-page-author-embedded-video{
-    width: 46%;
-    } */
-    /* @media only screen and (max-width: 650px) {
-        .home_page_author_on_quality_drugs{
-         width: 100%;
-        } */
-    
-    
-    /* @media only screen and (max-width: 550px) {
-        .home_page_author_on_quality_drugs{
-         background-color: yellow;
-     width: 100%;
-        }
-    
-    
-     } */
-     /* @media only screen and (max-width:425px){
-    .all-author-deal{
-        width: 100%;
-        text-align: justify;
-        margin: 10px;
-        float: left;
-        text-align: justify;
-        position: relative;
-        right: 7.5%;
-    }
-    .author-header{
-        text-align: center;
-    }
-    }*/
-    /* .top-banner{
-    background-color: red;
-    width: 100%;
-    height:100px ;
-    position: relative;
-    top: 100px;
-    
-    
-    } */

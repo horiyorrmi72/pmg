@@ -31,12 +31,11 @@ img {
     width: 100%;
     height: auto;
 }
-.home_page_author_on_quality_drugs{
-    /* background-color: blue; */
+/* .home_page_author_on_quality_drugs{
     width: 100vw;
     margin: 10px;
-}
-.authors{
+} */
+/* .authors{
     float: left;
     width: 90%;
     margin-left: 2%;
@@ -47,9 +46,8 @@ img {
 .author-header{
     display: block; 
     text-align: center; 
-}
-.all-author-deal{
-    /* background-color: yellow; */
+} */
+/* .all-author-deal{
     width: 50%;
     text-align: center;
     line-height: normal;
@@ -62,18 +60,19 @@ img {
      margin: 30px;
      display: flex;
      align-items: center;
- }
-.author-media{
+ } */
+/* .author-media{
     width: 45%;
     height: auto;
-        /* position: relative;
-        left: 45%;
-        bottom: 70%; */
-        
+               
+    } */
+    /* .media_cont{
+        width: 100%;
+        height: auto;
     }
     .authors{
         text-align: justify;
-}
+} */
 .brief_info_data{
     width: 100%;
     height: auto;

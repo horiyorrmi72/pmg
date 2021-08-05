@@ -152,7 +152,7 @@
         margin-top: 30px;
         float: left;
         position: relative;
-        top: 100px;
+        top: 90%;
         
     }
     .registered_org{
@@ -175,10 +175,10 @@
         display: grid;
         grid-gap: 5px;
         /* grid-template-columns: repeat(6, calc(100% - 5px)); */
-        grid-template-columns: repeat(6, auto);
+        grid-template-columns: repeat(5, auto);
         grid-template-rows: minmax(150px, 1fr);
     
-        padding: 0 10px;
+        padding:0;
     }
 
     .dev_cont{
@@ -194,4 +194,99 @@
         text-align: center;
         text-transform: capitalize;
         color: aqua;
+    }
+    .committes_page{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        grid-auto-rows:minmax(100px,auto);
+        margin-top: 30px;
+
+    }
+    .committe_btn{
+        width: 100%;
+        background-color: rgb(235, 51, 51);
+        color: aqua;
+        height: 50px;
+        border:1px ;
+        border-radius: 4px;
+    }
+    .Regulatory{
+        grid-column-start: 1;
+        grid-column-end:span col2-start ;
+        grid-row: 1, auto;
+        border:1px solid;
+        text-align: justify;
+        width: 650px;
+        height: 250px;
+        margin: auto;
+        padding: auto;
+
+    }
+   
+    .pharma_expo{
+        grid-column-start: 1/span 1;
+        grid-row: 2, auto;
+        border:1px solid;
+        width: 620px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: auto;
+        
+    }
+    .advocay{
+        grid-column-start: 2;
+        grid-column-end:span col3-start ;
+        grid-row: 2, auto;
+        border:1px solid;
+        width: 600px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        padding: auto;
+        height: auto;
+    }
+    .general_purpose{
+        grid-column-start: 1;
+        grid-column-end:span col2-start ;
+        grid-row: 3, auto;
+        border:1px solid;
+        text-align: justify;
+        width: 650px;
+        height: 250px;
+        margin: auto;
+        padding: auto;
+        height: auto;
+    }
+    .trade{
+        grid-column-start: 1/span 1;
+        grid-row: 2, auto;
+        border:1px solid;
+        width: 620px;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .data_center{
+            grid-column-start: 1/span 1;
+            grid-row: 2, auto;
+            border:1px solid;
+            width: 620px;
+            margin-right: 40px;
+            margin-top: 30px;
+            margin-left: 20px;
+            margin-bottom: 30px;
+            height: auto;
+            
+        
+    }
+    .regulatories,.expo,
+    .advocacy,.general,
+    .traffic,.data{
+        list-style-type: none;
+        margin: 10px;
     }
